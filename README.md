@@ -11,7 +11,7 @@
 
 Clone this repository
 
-    ```$ git clone https://github.com/web-solution/vagrant-symfony2-box.git```
+    ```$ git clone https://github.com/josevillalobos/vagrant-symfony2-box.git```
 
 * run vagrant (for the first time it should take up to 30-60 min)
     ```$ vagrant up```
