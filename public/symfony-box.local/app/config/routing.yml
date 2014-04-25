@@ -1,0 +1,5 @@
+kubide_front:
+    resource: "@KubideFrontBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
