@@ -50,3 +50,20 @@ Clone this repository
 * [Capifony](http://capifony.org/)
 * [phpqatools](http://phpqatools.org/)
 * [memcached](http://memcached.org/)
+* 
+
+## SYMFONY2 + nginx CONF
+
+For nginx not to overwrite Symfony2 errors just change this configuration in nginx configuration files:
+
+-> proxy_params
+
+proxy_buffer_size 128k;
+proxy_buffers 4 256k;
+proxy_busy_buffers_size 256k;
+
+-> fastcgi_params
+
+fastcgi_buffer_size 128k;
+fastcgi_buffers 4 256k;
+fastcgi_busy_buffers_size 256k;
